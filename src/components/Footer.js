@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='padding flex md:flex-row flex-col justify-between items-stretch w-full bg-DarkBlue text-white md:py-16'>
       <div className='flex flex-col md:justify-between items-center p  md:text-left md:space-y-10'>
-        <img src={logo} alt="" className=' p-2 w-64'  />
+        <img src={logo} alt="" className='imgs p-2 w-64'  />
         <ul className='flex py-4 justify-center space-x-6 md:text-left  text-[20px]'>
           <li><a href="" className='hover:text-LimeGreen'> <BsYoutube/></a></li>
           <li><a href="" className='hover:text-LimeGreen'><BsFacebook/></a></li>

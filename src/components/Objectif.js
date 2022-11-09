@@ -6,7 +6,7 @@ import img4 from './../assets/icon-api.svg'
 
 const Objectif = () => {
   return (
-    <div className='padding  bg-verylightgray -z-50'>
+    <div className='padding  bg-verylightgray -z-50 text-center md:text-left'>
       <p className='mt-16 md:text-[43px] text-[33px] text-DarkBlue'>Why choose Easybank?</p>
       <p className='text-[20px]  max-w-[700px] text-GrayishBlue'>We leverage Open Banking to turn your bank account into your financial hub. Control
   your finances like never before.</p>

@@ -7,10 +7,10 @@ import img4 from './../assets/image-confetti.jpg'
 const Articles = () => {
   return (
 
-      <div className='padding  bg-verylightgray -z-50'>
+      <div className='padding  bg-verylightgray -z-50 '>
       <p className='mt-16 md:text-[43px] text-[33px] text-DarkBlue'>Latest Articles</p>
 
-  <div className="contain grid md:grid-cols-4 grid-cols-1  mt-16 gap-10">
+  <div className="contain grid md:grid-cols-4 grid-cols-1  mt-16 gap-10 text-center md:text-left">
     <div className="box flex justify-center items-center flex-col lg:block bg-white">
       <img src={img1} alt="" className='min-h-[200px]' />
       <p className='text-DarkBlue text-[17px] font-[300] pt-6 px-3'>       By Claire Robinson</p>
