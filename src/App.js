@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import {Navbar,Hero,Articles,Footer,Objectif} from './components'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = ()=>
+  (
+    <div className="w-full overflow-hidden ">
+      <div className="navbar z-[1000]">
+      <Navbar/>
+      </div>
+      <div className="contenu z-[200] ">
+      <Hero/>
+      <Objectif/>
+      <Articles/>
+      <Footer/>
+      </div>
+
+
     </div>
   );
-}
+
 
 export default App;

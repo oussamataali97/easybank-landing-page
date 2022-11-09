@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Public+Sans:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    overflow-x: hidden;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.padding{
+    @apply px-6 md:px-16 lg:px-24 py-6 md:py-4;
+}
+
+.hero {
+    background-image: url('./assets/bg-intro-desktop.svg')    ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 600px -290px;
+
+}
+
+@media (max-width:768px) {
+    .hero{
+
+        background-image: url('./assets/bg-intro-desktop.svg')    ;
+        background-size:800px 400px;
+        background-position: -200px -100px;
+    }
 }
