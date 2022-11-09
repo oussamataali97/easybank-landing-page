@@ -29,7 +29,7 @@ const Footer = () => {
           <li className='py-3 md:py-0'><a href="#" className='hover:text-LimeGreen'>Privacy Policy</a></li>
         </ul>
       </div>
-      <div className='flex flex-col justify-between items-center '>
+      <div className='flex flex-col justify-between items-center content-self-end'>
       <button className='my-5 md:my-0 bg-gradient-to-r  from-LimeGreen to-BrightCyan px-5 py-2 text-white rounded-full'>
         Request Invite
       </button>
