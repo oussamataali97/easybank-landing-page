@@ -5,7 +5,7 @@ import {BsYoutube,BsFacebook,BsTwitter,BsInstagram,BsPinterest} from 'react-icon
 const Footer = () => {
   return (
     <div className='padding flex md:flex-row flex-col justify-between items-stretch w-full bg-DarkBlue text-white md:py-16'>
-      <div className='flex flex-col md:justify-between items-center p py-4  md:text-left md:space-y-10'>
+      <div className='flex flex-col md:justify-between items-center p  md:text-left md:space-y-10'>
         <img src={logo} alt="" className=' p-2 w-64'  />
         <ul className='flex py-4 justify-center space-x-6 md:text-left  text-[20px]'>
           <li><a href="" className='hover:text-LimeGreen'> <BsYoutube/></a></li>
