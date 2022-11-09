@@ -31,7 +31,7 @@ const Objectif = () => {
     </div>
     <div className="box flex justify-center items-center flex-col lg:justify-start lg:items-start">
       <img src={img4}  alt="" />
-      <p className='text-DarkBlue text-[20px] font-[500] py-6 '>  Open API</p>
+      <p className='text-DarkBlue text-[20px] font-[500] py-6 '>Open API</p>
       <p className='text-GrayishBlue text-[18px] font-[400]'>Manage your savings, investments, pension, and much more from one account. Tracking
   your money has never been easier.</p>
     </div>
